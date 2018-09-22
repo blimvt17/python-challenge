@@ -23,7 +23,20 @@ print("Total: $" + str(total))
 
 #Average Change
 df_average = df.groupby('Date').mean().reset_index()
-print("Average Change: $ " + df_average.head())
+print("Average Change: $ " + str(df_average.head()))
+
 #Greatest Increase In Profits
 
 #Greatest Decrease in Profits 
+
+#results
+# Financial Analysis
+# ----------------------------
+# Total Months: 86
+# Total: $38382578
+# Average Change: $        Date  Profit/Losses
+# 0  Apr-2010         -69417
+# 1  Apr-2011         793163
+# 2  Apr-2012        1151518
+# 3  Apr-2013         471435
+# 4  Apr-2014         581943
