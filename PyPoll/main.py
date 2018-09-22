@@ -45,3 +45,16 @@ print("O'Tooley: " + str(OTooley_percentage) + "% (" + str(OTooley_count) + ")")
 lines_across()
 print("Winner: Khan")
 lines_across()
+
+# Results
+# Election Results
+# ----------------------------
+# Total Votes: 3521001
+# ----------------------------
+# Khan: 63.00001% (2218231)
+# Correy: 19.99999% (704200)
+# Li: 14.0% (492940)
+# O'Tooley: 3.0% (105630)
+# ----------------------------
+# Winner: Khan
+# ----------------------------
