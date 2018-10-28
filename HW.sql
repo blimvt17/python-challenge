@@ -12,6 +12,7 @@ SELECT * FROM sakila.country WHERE country_id AND country IN ('Afghanistan', 'Ba
 
 SELECT * FROM sakila.actor last_name;
 
+<<<<<<< HEAD
 SELECT * FROM sakila.actor WHERE last_name LIKE '%WILLIAMS%';
 
 UPDATE sakila.actor 
@@ -41,6 +42,23 @@ INNER JOIN address ON address.adress_id = staff.address_id;
 
 
 
+=======
+SELECT * FROM sakila.actor last_name IS WILLIAMS;
+
+
+4b. List last names of actors and the number of actors who have that last name, but only for names that are shared by at least two actors
+4c. The actor HARPO WILLIAMS was accidentally entered in the actor table as GROUCHO WILLIAMS. Write a query to fix the record.
+4d. Perhaps we were too hasty in changing GROUCHO to HARPO. It turns out that GROUCHO was the correct name after all! In a single query, if the first name of the actor is currently HARPO, change it to GROUCHO.
+
+5a. You cannot locate the schema of the address table. Which query would you use to re-create it?
+
+
+Hint: https://dev.mysql.com/doc/refman/5.7/en/show-create-table.html
+
+
+
+6a. Use JOIN to display the first and last names, as well as the address, of each staff member. Use the tables staff and address:
+>>>>>>> 6681b2646b166b629eba2bc4cd18c91c8f7a85bb
 6b. Use JOIN to display the total amount rung up by each staff member in August of 2005. Use tables staff and payment.
 6c. List each film and the number of actors who are listed for that film. Use tables film_actor and film. Use inner join.
 6d. How many copies of the film Hunchback Impossible exist in the inventory system?
